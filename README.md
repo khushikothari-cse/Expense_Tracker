@@ -1,24 +1,20 @@
-# 🎓 Student Expense Tracker & Pocket Money Manager
+<div align="center">
+<img width="1200" height="475" alt="GHBanner" src="https://ai.google.dev/static/site-assets/images/share-ais-513315318.png" />
+</div>
 
-A smart, student-focused web application designed to help college students track daily expenses, stay within their monthly pocket money budget, and receive personalized spending advice.
+# Run and deploy your AI Studio app
 
-## 🛠️ Tech Stack
-* **Frontend:** React, TypeScript, Tailwind CSS
-* **Build Tool:** Vite
-* **AI Integration:** Google Gemini API (for AI financial advice)
+This contains everything you need to run your app locally.
 
-## ✨ Key Features
-* **Pocket Money Budgeting:** Track daily spending against student monthly allowances.
-* **Category Breakdown:** View clear insights on food, study materials, transport, and leisure expenses.
-* **Smart Student Insights:** AI-driven advice to help students save money and avoid overspending before the month ends.
+View your app in AI Studio: https://ai.studio/apps/7a311e7b-fc2f-4e23-80ec-68354aa6fc66
 
-## 🚀 How to Run Locally
-1. Clone the repository:
-   git clone https://github.com/khushikothari-cse/Expense_Tracker.git
-2. Install dependencies:
-   npm install
-3. Start the development server:
-   npm run dev
+## Run Locally
 
----
-*Note: This project is currently under active development [Work in Progress].*
+**Prerequisites:**  Node.js
+
+
+1. Install dependencies:
+   `npm install`
+2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
+3. Run the app:
+   `npm run dev`
